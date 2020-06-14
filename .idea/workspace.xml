@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d836898-669b-4a3a-b470-e52bd370b5d7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\MyMaven\repository" />
+        <option name="mavenHome" value="D:/develop/MyMaven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\develop\MyMaven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1czpz6tSkH9esgELnMgQ1l4ZU4G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15722656" />
+    <property name="project.structure.side.proportion" value="0.15236686" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\jack\redis-vote\src" />
+      <recent name="F:\code\jack\redis-vote\src\main\java\com\jack\cache" />
+      <recent name="F:\code\jack\redis-vote\src\main\webapp" />
+      <recent name="F:\code\jack\redis-vote\src\main\webapp\WBE-INF" />
+      <recent name="F:\code\jack\redis-vote\src\main\resources" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.Test1 (1)">
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jack.cache.Test1" />
+      <module name="redis-vote" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jack.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <module name="redis-vote" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-vote" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="a" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRedisArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-vote" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRedisArticle" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRedisArticle.bArticleVote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redis-vote" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRedisArticle" />
+      <option name="METHOD_NAME" value="bArticleVote" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test1 (1)" />
+      <item itemvalue="JUnit.TestRedisArticle.bArticleVote" />
+      <item itemvalue="JUnit.TestRedisArticle" />
+      <item itemvalue="JUnit.Test1.a" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="JUnit.Test1.a" />
+        <item itemvalue="JUnit.TestRedisArticle.bArticleVote" />
+        <item itemvalue="JUnit.TestRedisArticle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="H:/" value="PREVIEW" />
+        <entry key="H:/project" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\jack\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d836898-669b-4a3a-b470-e52bd370b5d7" name="Default Changelist" comment="" />
+      <created>1591541535795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591541535795</updated>
+      <workItem from="1591541541110" duration="2033000" />
+      <workItem from="1591583857014" duration="121000" />
+      <workItem from="1591620482072" duration="6747000" />
+      <workItem from="1591663331647" duration="6829000" />
+      <workItem from="1591704364058" duration="6903000" />
+      <workItem from="1592121070495" duration="879000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="267" y="76" key="#Deployment" timestamp="1592151427639">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="267" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1592151427639" />
+    <state x="361" y="0" width="814" height="834" key="#Project_Structure" timestamp="1591663674918">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="0" width="814" height="834" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1591663674918" />
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591666357996">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1591666357996" />
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1592046626659">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1592046626659" />
+    <state x="386" y="67" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591541589577">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="386" y="67" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.834@0.0.1536.834" timestamp="1591541589577" />
+    <state x="612" y="316" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1591664651358">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="612" y="316" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.834@0.0.1536.834" timestamp="1591664651358" />
+    <state x="578" y="327" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1591664671701">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="578" y="327" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.834@0.0.1536.834" timestamp="1591664671701" />
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591678232030">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1591678232030" />
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1592151430695">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1592151430695" />
+    <state x="570" y="159" key="FileChooserDialogImpl" timestamp="1591664513372">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="570" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591664513372" />
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog" timestamp="1591666572274">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1591666572274" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1592151123918">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1592151123918" />
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2" timestamp="1592151268329">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1592151268329" />
+    <state x="430" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1591763764113">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="430" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1591763764113" />
+    <state x="561" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592151328088">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="561" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1592151328088" />
+    <state x="178" y="115" key="new project wizard" timestamp="1592047182067">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="115" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1592047182067" />
+  </component>
+</project>
