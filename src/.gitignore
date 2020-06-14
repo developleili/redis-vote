@@ -1,0 +1,23 @@
+./.project
+./.DS_Store
+./.classpath
+*/target/
+*/.project
+*/.DS_Store
+*/.classpath
+*/.settings/*
+./.settings/*
+**/.settings/*
+/.project
+*/hsf.lock
+/target/
+**/logs/
+*/logs/*
+**/.DS_Store
+/.classpath
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr

@@ -1,0 +1,83 @@
+import com.jack.cache.service.RedisArticleService;
+import lombok.extern.slf4j.Slf4j;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.MethodSorters;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import javax.annotation.Resource;
+import java.util.Date;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Redis业务测试用例
+ */
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("classpath:applicationContext.xml")
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+@Slf4j
+public class TestRedisArticle {
+
+	@Resource
+	private RedisArticleService redisArticleService;
+
+	/**
+	 * 测试用例：用户发布文章
+	 */
+	@Before
+	public void aPostArticle() {
+		String userId = "001"; //用户ID 001
+		String title = "The road to west";
+		String content = "About body and mental health";
+		String link = "www.xx.com";
+		//发布文章，返回文章ID
+		String articleId = redisArticleService.postArticle(title, content, link, userId);
+
+		System.out.println("刚发布了一篇文章，文章ID为: " + articleId);
+		System.out.println("文章所有属性值内容如下:");
+		Map<String,String> articleData = redisArticleService.hgetAll("article:" + articleId);
+		for (Map.Entry<String,String> entry : articleData.entrySet()){
+			log.info("  " + entry.getKey() + ": " + entry.getValue());
+		}
+	}
+	/**
+	 * 测试用例：用户对文章投票
+	 */
+	@Test
+	public void bArticleVote(){
+		String userId = "002";
+		String articleId = "1";
+		System.out.println(new Date().toString());
+		log.info("开始对文章"+"article:" + articleId+"进行投票啦~~~~~");
+		//cang用户给James的文章投票
+		redisArticleService.articleVote(userId, "article:" + articleId);//article:1
+		//投票完后，查询当前文章的投票数votes
+		String votes = redisArticleService.hget("article:" + articleId, "votes");
+
+		log.info("article:" + articleId+"这篇文章的投票数从redis查出来结果为: " + votes);
+	}
+	/**
+	 * 测试用例：获取文章列表并打印出来
+	 */
+	@After
+	public void cGetArticles(){
+		int page = 1;
+		String key = "score:info";
+		System.out.println("查询当前的文章列表集合为：");
+		List<Map<String,String>> articles = redisArticleService.getArticles(page,key);
+		for (Map<String,String> article : articles){
+			log.info("  id: " + article.get("id"));
+			for (Map.Entry<String,String> entry : article.entrySet()){
+				if (entry.getKey().equals("id")){
+					continue;
+				}
+				log.info("    " + entry.getKey() + ": " + entry.getValue());
+			}
+		}
+	}
+}
